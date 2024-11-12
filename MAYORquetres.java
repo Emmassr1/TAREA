@@ -16,7 +16,7 @@ public class MayorNumero {
                 valido = true;
             } else {
                 System.out.println("¡Eso no es un número válido! Inténtalo de nuevo.");
-                scanner.next(); // Limpiar el buffer
+                scanner.next(); 
             }
         }
         return numero;
